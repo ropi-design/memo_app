@@ -6,6 +6,7 @@
 
         <title>{{ $title ?? 'Page Title' }}</title>
     </head>
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <body>
         {{ $slot }}
     </body>
